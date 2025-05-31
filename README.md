@@ -81,6 +81,10 @@ After step 3, you will obtain:
 ```
 final_hand.obj  ← reconstructed hand mesh
 ```
+This mesh represents the aligned MANO-based 3D hand reconstruction.  
+However, **due to the structural limitations of the MANO model**, the result may not fully reflect natural finger poses (e.g., folded or clenched fingers).  
+For realistic articulation or manual adjustment (e.g., finger curling), consider using **Blender or other 3D editing tools** to fine-tune the pose.
+
 
 
 ---
