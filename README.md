@@ -6,15 +6,6 @@ This project reconstructs a 3D hand mesh from a single 2D image using a two-step
 
 The approach avoids optimization-based fitting and instead relies on geometric alignment of sampled surface points.
 
----
-
-## 📦 Requirements
-
-Install the following Python packages (Python 3.8+ recommended):
-
-```bash
-pip install numpy trimesh matplotlib open3d
-```
 
 ---
 
