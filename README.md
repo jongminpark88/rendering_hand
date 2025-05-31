@@ -16,13 +16,6 @@ Install the following Python packages (Python 3.8+ recommended):
 pip install numpy trimesh matplotlib open3d
 ```
 
-If using [`pytorch3d`](https://pytorch3d.org/), install it following the official instructions:
-
-```bash
-# Optional, only if needed for mesh rendering/optimization
-pip install pytorch3d
-```
-
 ---
 
 ## 📁 Folder Structure
@@ -95,14 +88,9 @@ Arguments:
 After step 3, you will obtain:
 
 ```
-final_hand.obj  ← aligned and reconstructed hand mesh
+final_hand.obj  ← reconstructed hand mesh
 ```
 
-You can view the mesh using software like:
-
-- [Blender](https://www.blender.org/)
-- [MeshLab](https://www.meshlab.net/)
-- Python libraries like `trimesh` or `open3d`
 
 ---
 
@@ -111,8 +99,6 @@ You can view the mesh using software like:
 - [MANO: Articulated Hand Model](https://mano.is.tue.mpg.de/)  
   > Romero et al., "Embodied Hands: Modeling and Capturing Hands and Bodies Together", SIGGRAPH Asia 2017
 
-- [trimesh](https://github.com/mikedh/trimesh)  
-- [open3d](http://www.open3d.org/)
 
 ---
 
